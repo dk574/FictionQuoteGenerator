@@ -1,0 +1,54 @@
+body:after{
+    position:fixed;
+    content:"";
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(0, 105, 180,0.5);
+    z-index:-1;
+}
+body, html {
+  height: 100%;
+  margin: 0;
+   overflow-x: hidden;
+  overflow-y: hidden; 
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: pink;
+  background-image: url("https://s3-ap-southeast-1.amazonaws.com/photo.wongnai.com/photos/2015/12/29/0d514ef135d5493cba47503d28d2ae8a.jpg");
+  background-repeat:repeat-x;
+  background-position: top;
+  z-index: -2;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+.cover {
+  text-align: center;
+  margin: 150px;
+  color: white;
+}
+
+img {
+  opacity: 0.3;
+}
+
+.buttonshape {
+  border-radius: 50%;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  
+}
+
+.buttonshape:hover {
+  background-color: #191970;
+  color: white;
+}
+
+button:focus {
+  outline:0;
+}
