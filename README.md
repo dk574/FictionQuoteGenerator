@@ -1,2 +1,2 @@
 # FictionQuoteGenerator
-Quote generator displaying famous quotes frm American classics.
+Quote generator displaying famous quotes from American classics.
